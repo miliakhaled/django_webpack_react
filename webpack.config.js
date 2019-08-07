@@ -1,12 +1,8 @@
-var path = require('path');
 module.exports = {
     mode: 'development',
-    entry: {
-        main: './static/js/'
-
-    },
-    output: {
-        filename: "main.js",
-        path: path.resolve('./build')
-    }
+    entry:  './static/js/index.js',
+    devServer: {
+    host: '0.0.0.0',
+    port: 8080,
+},
 };
