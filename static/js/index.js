@@ -1,7 +1,6 @@
-import './counter.js'
+import './name'
+import './counter'
 
-const name = document.getElementById('name');
 
-name.innerHTML = 'Khaled';
 
 
